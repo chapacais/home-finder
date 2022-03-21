@@ -50,6 +50,7 @@ body {
 
 .hamburger-btn {
     display: none;
+    background: none;
     padding: 0;
 }
 
