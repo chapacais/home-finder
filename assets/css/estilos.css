@@ -1,0 +1,638 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Open+Sans&display=swap');
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.mostra-menu-mobile {
+    transform: translateX(-400px);
+}
+
+.btn {
+    background: #22436E;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px #0000004D;
+    min-height: 40px;
+    min-width: 120px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    background: #132a47;
+}
+
+.btn:active {
+    transform: translateY(-2px);
+}
+
+.link-btn {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    padding: 0 55px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F2F2F2;
+    min-height: 70px;
+    border: 1px solid #606060;
+}
+
+.hamburger-btn {
+    display: none;
+    padding: 0;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.header__logo--img {
+    margin-right: 8px;
+}
+
+.header__logo--titulo {
+    font-size: 20px;
+    color: #000;
+}
+
+.fechar-btn {
+    display: none;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav--link {
+    margin-right: 20px;
+    transition: all 0.2s;
+}
+
+.header__nav--link:nth-child(4) {
+    margin: 0;
+}
+
+.link-nav {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.hero-bg {
+    display: flex;
+    flex-direction: column;
+    background: url("../imagens/compiturier.png");
+    background-repeat: no-repeat;
+    min-height: 457px;
+}
+
+.hero-bg__chamada {
+    font-size: 42px;
+    width: 50%;
+    margin-top: 72px;
+}
+
+.hero-bg__botoes {
+    margin-top: 90px;
+}
+
+.btn-hero {
+    margin-right: 45px;
+    width: 200px;
+    height: 50px;
+}
+
+.btn-hero .link-btn {
+    font-size: 20px;
+}
+
+.descubra-mais {
+    background: #C44848;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descubra-mais__chamada {
+    font-size: 38px;
+    color: #fff;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.descubra-mais__cartoes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+.descubra-mais__cartao {
+    background: #fff;
+    box-shadow: 0px 2px 4px #0000004D;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 29px 30px 17px 30px;
+    max-width: 270px;
+}
+
+.descubra-mais__cartao--chamada {
+    color: #000;
+    font-size: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.descubra-mais__cartao--chamada::before {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    width: 40px;
+    height: 2px;
+    background: #DEDEDE;
+    transform: translateY(6px);
+}
+
+.cartao--texto {
+    color: #808080;
+    font-size: 16px;
+    margin-bottom: 27px;
+    line-height: 20px;
+}
+
+.cartao--btn {
+    width: 100%;
+    align-self: flex-end;
+}
+
+.opcoes-lar {
+    min-height: 646px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.opcoes-lar__chamada {
+    font-size: 42px;
+    color: #000;
+    text-align: center;
+}
+
+.opcoes-lar__cartoes {
+    display: flex;
+    gap: 100px;
+}
+
+.opcoes-lar__cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 256px;
+    background: rgba(175, 200, 255, 0.3);
+    border-radius: 20px;
+    padding-top: 10px;
+}
+
+.cartao--img {
+    width: 50%;
+    margin-bottom: 47px;
+}
+
+.cartao--chamada {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 14px;
+}
+
+.opcoes-lar__btn {
+    width: 200px;
+    height: 50px;
+}
+
+.opcoes-lar__btn .link-btn {
+    font-size: 20px;
+}
+
+.citacao-bg {
+    background: url(/assets/imagens/minina\ peb.png);
+    background-repeat: no-repeat;
+}
+
+.citacao-bg__bg-container {
+    background: rgba(196, 72, 72, 0.5);
+    min-height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 66px;
+    padding-left: 75px;
+    box-sizing: border-box;
+}
+
+.citacao-bg__citacao {
+    font-size: 38px;
+    font-style: italic;
+    color: #fff;
+    width: 55%;
+    line-height: 49px;
+    margin-bottom: 11px;
+}
+
+.citacao-bg__nome-citacao {
+    color: #222222;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.contato {
+    display: flex;
+    min-height: 500px;
+}
+
+.contato__cadastro {
+    background: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 60px 85px 60px 155px;
+}
+
+.contato__cadastro--chamada {
+    font-size: 42px;
+    color: #000;
+}
+
+.contato__cadastro--form {
+    margin-top: 59px;
+    width: 100%;
+}
+
+.contato__cadastro--form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+
+.contato__cadastro--form input {
+    display: block;
+    background: #DDDDDD;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 19px;
+    padding: 0 10px;
+}
+
+.btn-cadastro {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.contato__suporte {
+    width: 50%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato__suporte--informacao {
+    font-size: 20px;
+    color: #000;
+}
+
+.informacao {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    min-height: 196px;
+}
+
+.informacao-chamada {
+    font-size: 20px;
+    color: #E8E8E8;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    margin-top: 29px;
+}
+
+.mapa-do-site__nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+    column-gap: 30px;
+}
+
+.mapa-do-site__nav--link {
+    text-decoration: none;
+    color: #808080;
+    font-size: 16px;
+    position: relative;
+    transition: all 0.2s;
+}
+
+.mapa-do-site__nav--link:hover {
+    color: #b1b1b1;
+}
+
+.redes-sociais {
+    margin-left: 154px;
+}
+
+.redes-sociais-container {
+    display: flex;
+}
+
+.redes-sociais--img {
+    max-width: 50px;
+    margin-right: 20px;
+    opacity: 75%;
+    transition: all 0.2s;
+}
+
+.redes-sociais--img:hover {
+    opacity: 100%;
+}
+
+.info-sobre {
+    margin-left: 140px;
+}
+
+.info-sobre__texto {
+    color: #808080;
+    line-height: 23px;
+    max-width: 80%;
+}
+
+.footer {
+    min-height: 60px;
+    background: #22436E;
+    display: flex;
+    align-items: center;
+}
+
+.footer__texto {
+    color: #fff;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 40px;
+    }
+
+    .hero-bg__chamada {
+        width: 100%;
+    }
+
+    .descubra-mais__cartoes {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .opcoes-lar__chamada {
+        margin-top: 20px;
+    }
+
+    .opcoes-lar__cartoes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+        margin: 20px 0;
+    }
+
+    .opcoes-lar__cartao {
+        width: 200px;
+    }
+    
+    .opcoes-lar__btn {
+        margin-bottom: 20px;
+    }
+
+    .citacao-bg {
+        background-position: 30%;
+    }
+
+    .citacao-bg__bg-container {
+        justify-content: flex-end;
+        padding-bottom: 80px;
+        min-height: 600px;
+    }
+
+    .citacao-bg__citacao {
+        width: 100%;
+    }
+    
+    .contato__cadastro {
+        align-items: center;
+        padding: 30px 0;
+    }
+    
+    .contato__cadastro--chamada {
+        text-align: center;
+    }
+    
+    .contato__cadastro--form {
+        width: 75%;
+    }
+
+    .contato__suporte {
+        padding: 0;
+    }
+    
+    .contato__suporte--img {
+        width: 75%;
+    }
+    
+    .contato__suporte--informacao {
+        font-size: 16px;
+    }
+
+    .informacao {
+        flex-wrap: wrap;
+    }
+
+    .info-sobre {
+        margin: 0 0 19px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 0 25px;
+    }
+
+    .header nav {
+        position: fixed;
+        z-index: 99;
+        width: 50%;
+        right: -400px;
+        top: 0;
+        background: #F2F2F2;
+        height: 100vh;
+        padding: 30px;
+        transition: all 0.5s;
+        box-shadow: 5px -10px 30px 5px #000;
+    }
+
+    .fechar-btn {
+        border: none;
+        display: block;
+        background: transparent;
+    }
+
+    .fechar-btn img {
+        width: 20px;
+    }
+
+    .header__nav {
+        height: 50%;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .header__nav--link {
+        margin-bottom: 30px;
+        font-size: 28px;
+    }
+    
+    .link-nav {
+        font-weight: 700;
+    }
+
+    .hamburger-btn {
+        display: block;
+        border: none;
+    }
+
+    .hero-bg {
+        min-height: 350px;
+    }
+
+    .hero-bg__chamada {
+        font-size: 36px;
+        margin-top: 50px;
+    }
+
+    .hero-bg__botoes {
+        margin-top: 50px;
+        display: flex;
+    }
+
+    .btn-hero {
+        margin-right: 10px;
+    }
+
+    .btn-hero .link-btn {
+        font-size: 16px;
+    }
+
+    .descubra-mais__chamada {
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .opcoes-lar__chamada {
+        font-size: 32px;
+        margin-top: 20px;
+    }
+
+    .opcoes-lar__cartoes {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .opcoes-lar__cartao {
+        max-width: 200px;
+    }
+
+    .cartao--img {
+        margin-bottom: 25px;
+    }
+
+    .opcoes-lar__btn {
+        margin-bottom: 20px;
+    }
+
+    .citacao-bg {
+        background-position: 60%;
+    }
+
+    .citacao-bg__bg-container {
+        padding-bottom: 40px;
+    }
+
+    .citacao-bg__citacao {
+        font-size: 32px;
+    }
+
+    .contato {
+        flex-direction: column;
+    }
+
+    .contato__cadastro {
+        width: 100%;
+        height: 380px;
+    }
+
+    .contato__cadastro--chamada {
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .contato__cadastro--form {
+        width: 75%;
+        margin-top: 45px;
+    }
+
+    .btn-cadastro {
+        margin-bottom: 30px;
+    }
+
+    .contato__suporte {
+        padding: 0;
+        width: 100%;
+        height: 380px;
+    }
+
+    .redes-sociais {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .hero-bg {
+        background: url('../imagens/compiturier@2x.png');
+        background-position: 20%;
+    }
+
+    .citacao-bg {
+        background: url('../imagens/minina\ peb@2x.png');
+        background-position: 50% 10%;
+    }
+}
