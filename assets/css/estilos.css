@@ -231,7 +231,7 @@ body {
 }
 
 .citacao-bg {
-    background: url(/assets/imagens/minina\ peb.png);
+    background: url("../imagens/minina\ peb.png");
     background-repeat: no-repeat;
 }
 
