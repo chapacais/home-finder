@@ -530,7 +530,7 @@ body {
     }
 
     .hero-bg {
-        min-height: 350px;
+        min-height: 380px;
     }
 
     .hero-bg__chamada {
@@ -598,7 +598,6 @@ body {
 
     .contato__cadastro {
         width: 100%;
-        height: 380px;
     }
 
     .contato__cadastro--chamada {
